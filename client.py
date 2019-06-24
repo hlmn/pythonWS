@@ -28,8 +28,8 @@ def on_disconnect():
 
 if __name__ == '__main__':
     
-    # sio.connect('http://localhost:5000')
-    sio.connect('http://socket.muhammadhilman.com')
+    sio.connect('http://localhost:5000')
+    # sio.connect('localhost')
     sio.wait()
     print("A")
 
